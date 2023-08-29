@@ -1,4 +1,4 @@
-project(Temperature)
+project(src)
 
 set(HEADER_FILES
         Temperature.h
@@ -7,4 +7,4 @@ set(HEADER_FILES
 set(SOURCE_FILES
         Temperature.cpp )
 
-add_library(Temperature_lib STATIC ${SOURCE_FILES} ${HEADER_FILES})
+add_library(src STATIC ${SOURCE_FILES} ${HEADER_FILES})

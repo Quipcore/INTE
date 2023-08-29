@@ -7,6 +7,6 @@ float Temperature::getFahrenheit() {
     return 0;
 }
 
-float Temperature::convertToFahrenheit(float celcius) {
-    return 0;
+float Temperature::convertToFahrenheit(float celsius) {
+    return 9*celsius/5 + 32;
 }
